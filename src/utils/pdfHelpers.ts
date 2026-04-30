@@ -1,6 +1,6 @@
 /**
- * PaperKnife - The Swiss Army Knife for PDFs
- * Copyright (C) 2026 potatameister
+ * SnapPDF - The Simple • Fast • Secure
+ * Copyright (C) 2026 SnapPDF Team
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -26,7 +26,7 @@ export interface PdfMetaData {
 // Fixed cMapUrl for true offline usage (relative to base)
 const getCMapUrl = () => {
   const isCapacitor = Capacitor.isNativePlatform();
-  return isCapacitor ? 'cmaps/' : '/PaperKnife/cmaps/';
+  return isCapacitor ? 'cmaps/' : '/SnapPDF/cmaps/';
 };
 
 /**
@@ -130,7 +130,7 @@ export const shareFile = async (data: Uint8Array | string, fileName: string, mim
 
       await Share.share({
         title: fileName,
-        text: `Shared via PaperKnife`,
+        text: `Shared via SnapPDF`,
         url: result.uri,
         dialogTitle: 'Share PDF'
       });
@@ -153,7 +153,7 @@ export const shareFile = async (data: Uint8Array | string, fileName: string, mim
         await navigator.share({
           files: [file],
           title: fileName,
-          text: 'Shared via PaperKnife'
+          text: 'Shared via SnapPDF'
         });
         return true;
       } catch (e) {

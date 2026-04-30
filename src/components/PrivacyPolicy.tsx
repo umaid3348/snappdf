@@ -1,12 +1,12 @@
 /**
- * PaperKnife - Privacy Protocol
+ * SnapPDF - Privacy Protocol
  * Absolute data sovereignty and zero-telemetry specification.
  */
 
 import { Shield, EyeOff, ServerOff, Database as DatabaseIcon, History as HistoryIcon, ExternalLink, Lock, Trash2, Cpu } from 'lucide-react'
 import { Capacitor } from '@capacitor/core'
 import { NativeToolLayout } from './tools/shared/NativeToolLayout'
-import { PaperKnifeLogo } from './Logo'
+import { SnapPDFLogo } from './Logo'
 
 // --- WEB VERSION (TITAN HIGH-DENSITY) ---
 const PrivacyWeb = () => {
@@ -29,7 +29,7 @@ const PrivacyWeb = () => {
                 <span className="text-emerald-500 font-black">of Silence.</span>
               </h1>
               <p className="text-lg text-gray-500 dark:text-zinc-400 font-medium max-w-lg leading-relaxed">
-                PaperKnife isn't just "private" by policy; it's private by architecture. We've eliminated the server entirely, ensuring that "No Data Found" is a technical reality, not just a promise.
+                SnapPDF isn't just "private" by policy; it's private by architecture. We've eliminated the server entirely, ensuring that "No Data Found" is a technical reality, not just a promise.
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ const PrivacyWeb = () => {
                  Recent activity logs are stored exclusively in your browser's <span className="font-black">IndexedDB</span>. This data never touches a network. You remain the sole custodian of your history.
               </p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4">
-                 <a href="https://github.com/potatameister/PaperKnife" target="_blank" className="px-8 py-3 bg-white text-emerald-600 rounded-xl font-black uppercase text-[10px] tracking-widest hover:scale-105 transition-transform flex items-center gap-2 shadow-lg">
+                 <a href="https://github.com/SnapPDF Team/SnapPDF" target="_blank" className="px-8 py-3 bg-white text-emerald-600 rounded-xl font-black uppercase text-[10px] tracking-widest hover:scale-105 transition-transform flex items-center gap-2 shadow-lg">
                     <Shield size={14} /> Audit Engine
                  </a>
               </div>
@@ -99,7 +99,7 @@ const PrivacyWeb = () => {
         </div>
 
         <div className="pt-12 text-center opacity-30">
-           <PaperKnifeLogo size={32} iconColor="#10B981" partColor="currentColor" className="mx-auto mb-4" />
+           <SnapPDFLogo size={32} iconColor="#10B981" partColor="currentColor" className="mx-auto mb-4" />
            <p className="text-[10px] font-black uppercase tracking-[0.5em] text-gray-400">Privacy Protocol v1.0.9 Stable</p>
         </div>
       </div>
@@ -159,10 +159,10 @@ const PrivacyAPK = () => {
            </div>
            <h3 className="text-lg font-black uppercase tracking-tight mb-3">Integrity Pledge</h3>
            <p className="text-xs text-zinc-400 leading-relaxed font-medium mb-6">
-              PaperKnife is a transparent document workspace. We believe your data belongs to you, and we build tools that make that technically enforceable.
+              SnapPDF is a transparent document workspace. We believe your data belongs to you, and we build tools that make that technically enforceable.
            </p>
            <a 
-             href="https://github.com/potatameister/PaperKnife" 
+             href="https://github.com/SnapPDF Team/SnapPDF" 
              target="_blank" 
              className="flex items-center justify-center gap-2 py-3.5 bg-white text-black rounded-xl font-black uppercase text-[10px] tracking-widest active:scale-95 transition-transform"
            >

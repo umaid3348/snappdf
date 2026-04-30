@@ -33,7 +33,7 @@ export default function RotateTool() {
   const [rotations, setRotations] = useState<Record<number, number>>({})
   const [isProcessing, setIsProcessing] = useState(false)
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null)
-  const [customFileName, setCustomFileName] = useState('paperknife-rotated')
+  const [customFileName, setCustomFileName] = useState('snappdf-rotated')
   const [unlockPassword, setUnlockPassword] = useState('')
 
   useEffect(() => {

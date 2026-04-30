@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.paperknife.app',
-  appName: 'PaperKnife',
+  appId: 'com.snappdf.app',
+  appName: 'SnapPDF',
   webDir: 'dist'
 };
 

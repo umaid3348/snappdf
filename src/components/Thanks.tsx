@@ -1,7 +1,7 @@
 import { Github as GHIcon, Heart as HeartIcon, Sparkles, ChevronRight } from 'lucide-react'
 import { Capacitor } from '@capacitor/core'
 import { NativeToolLayout } from './tools/shared/NativeToolLayout'
-import { PaperKnifeLogo } from './Logo'
+import { SnapPDFLogo } from './Logo'
 
 export default function Thanks() {
   const isNative = Capacitor.isNativePlatform()
@@ -28,7 +28,7 @@ export default function Thanks() {
           The <span className="text-rose-500">Supporters.</span>
         </h2>
         <p className="text-base md:text-lg text-gray-500 dark:text-zinc-400 leading-relaxed font-medium max-w-xl mx-auto px-4">
-          PaperKnife is a self-funded labor of love. These are the individuals and tools that keep the engine running.
+          SnapPDF is a self-funded labor of love. These are the individuals and tools that keep the engine running.
         </p>
       </section>
 
@@ -46,9 +46,9 @@ export default function Thanks() {
           <div className="flex-1 text-center md:text-left relative z-10">
             <h3 className="text-3xl font-black tracking-tighter mb-2">Hall of Fame</h3>
             <p className="text-zinc-400 text-sm font-medium leading-relaxed max-w-lg mb-8 mx-auto md:mx-0">
-              The heroes who fuel the engine. Your support ensures PaperKnife stays free and private forever. Sponsors receive a permanent shout-out here.
+              The heroes who fuel the engine. Your support ensures SnapPDF stays free and private forever. Sponsors receive a permanent shout-out here.
             </p>
-            <a href="https://github.com/sponsors/potatameister" target="_blank" className="inline-flex items-center gap-3 px-8 py-3.5 bg-white text-rose-600 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:scale-105 transition-transform shadow-lg">
+            <a href="https://github.com/sponsors/SnapPDF Team" target="_blank" className="inline-flex items-center gap-3 px-8 py-3.5 bg-white text-rose-600 rounded-2xl font-black uppercase tracking-widest text-[10px] hover:scale-105 transition-transform shadow-lg">
               <HeartIcon size={14} fill="currentColor" /> Sponsor Project
             </a>
           </div>
@@ -82,8 +82,8 @@ export default function Thanks() {
       </div>
 
       <footer className="text-center py-8 opacity-20">
-         <PaperKnifeLogo size={24} iconColor="#F43F5E" partColor="currentColor" className="mx-auto mb-4" />
-         <p className="text-[8px] font-black uppercase tracking-[0.5em]">PaperKnife Protocol v1.0.9</p>
+         <SnapPDFLogo size={24} iconColor="#F43F5E" partColor="currentColor" className="mx-auto mb-4" />
+         <p className="text-[8px] font-black uppercase tracking-[0.5em]">SnapPDF Protocol v1.0.9</p>
       </footer>
     </div>
   )
